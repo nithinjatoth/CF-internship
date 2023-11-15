@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook-like Login Form</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f2f5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .login-container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        width: 300px;
+      }
+
+      .login-container h2 {
+        text-align: center;
+        color: #1877f2;
+      }
+
+      .input-group {
+        margin-bottom: 15px;
+      }
+
+      .input-group label {
+        display: block;
+        margin-bottom: 8px;
+        color: #65676b;
+      }
+
+      .input-group input {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+      }
+
+      .login-btn {
+        background-color: #1877f2;
+        color: #fff;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%;
+      }
+      .login{
+        background-color: green;
+        color: #fff;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="login-container">
+      <h2>Log in to Facebook</h2>
+      <form action="#">
+        <div class="input-group">
+          <label for="email">Email or Phone</label>
+          <input type="text" id="email" name="email" required />
+        </div>
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <button type="submit" class="login-btn">Log In</button
+          <p class="forgot-password"><a href="#">Forgot password?</a></p>
+          <button type="submit" class="login">Create a New Account</button
+      </form>
+    </div>
+  </body>
+</html>
